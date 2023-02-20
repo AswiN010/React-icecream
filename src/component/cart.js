@@ -34,15 +34,15 @@ const Cart = ({ cart, setCart, handleChange }) => {
   return (
     <article>
       {cart.map((item) => (
-        <div style={{marginTop:"40px",marginBottom:'50px',height:"200px"}} className="cart_box" key={item.id}>
+        <div  style={{marginTop:"40px",marginBottom:'50px',height:"200px"}} className="cart_box" key={item.id}>
           <div className="cart_img">
             <img src={item.img} alt="" />
             <br></br>
-            <p>{item.title}</p>
+            <p style={{fontSize:"30px"}}>{item.title}</p>
           </div>
           <div>
             <button style={{color:'white',backgroundColor:"#FF5183",borderRadius:"5px"}} onClick={() => handleChange(item, 1)}>+</button>
-            <button style={{color:'white',backgroundColor:"#FF5183",borderRadius:"5px"}}>{item.amount}</button>
+            <button style={{color:'white',backgroundColor:"#FF5183",borderRadius:"5px",width:"40px"}}>{item.amount}</button>
             <button style={{color:'white',backgroundColor:"#FF5183",borderRadius:"5px"}} onClick={() => handleChange(item, -1)}>-</button>
           </div>
           <div>
@@ -51,17 +51,15 @@ const Cart = ({ cart, setCart, handleChange }) => {
           </div>
         </div>
       ))}
-      <div  style={{marginTop:"40px",marginBottom:'50px'}} className="total">
+      <div  style={{textAlign:'center'}} className="total">
         <span>Total Price of your Cart</span>
         <span>Rs - {price}</span>
       </div>
 
       
-      <Button style={{marginBottom:"40px",backgroundColor:"transparent",width:"1px",border:"2px black solid",borderRadius:"100px"}} variant="primary" onClick={handleShow}>
-      <div class="container1 ">
-                                                <div class="btn"><a>BUY NOW</a></div>
+      <div class="container1 " style={{marginBottom:"40px",backgroundColor:"transparent",width:"50%",marginLeft:'35%'}}>
+                                                <div class="btn"><a onClick={handleShow}>BUY NOW</a></div>
                                             </div>
-      </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

@@ -61,6 +61,7 @@ const list = [
       author: "by Wonder House Books  | 6 December 2020",
       price: 99,
       img: "https://culinaryshades.com/wp-content/uploads/2021/09/Salted-Caramel-IC-sqr.jpg",
+      amount: 1,
     },
     {
       id: 9,

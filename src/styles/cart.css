@@ -30,6 +30,9 @@
     margin-top: 20px;
     border-bottom: 2px solid skyblue;
     padding-bottom: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px 18px inset;
+padding: 20px;
+border-radius: 50px;
   }
   
   .cart_box div:nth-child(2) button {
@@ -63,6 +66,9 @@
   .total {
     display: flex;
     justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px 18px inset;
+padding: 40px;
+border-radius: 60px;
   }
   
   .total span:nth-child(1) {
@@ -77,4 +83,8 @@
     color: rgb(5, 6, 5);
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .t{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px 18px inset;
+
   }

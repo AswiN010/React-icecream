@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div>
         <>
-        <footer style={{backgroundColor:"#FF5183",height:"390px"}}>
+        <footer style={{backgroundColor:"#FF5183",height:"400px"}}>
     <div class="container py-4">
       <div class="row">
         <div   class="col-lg-4 col-md-6 mb-4 mb-lg-0 text-center ">

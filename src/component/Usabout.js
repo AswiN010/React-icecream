@@ -20,12 +20,12 @@ function Usabout() {
 <Container style={{ backgroundImage:"https://woodlands-ice-cream.co.uk/wp-content/themes/woodlands/img/wooden_panels.jpg", border: "10px transparent solid" }}>
                         <Row>
                             <Col  sm={8}>
-                                <h1 className='text-center' style={{ color: "black", fontFamily: "cursive", marginTop: "20px" ,fontStyle:"uppercase"}}>
+                                <h1 className='text-center' style={{ color: "black", fontFamily: "Ink Free", marginTop: "20px" ,fontStyle:"uppercase"}}>
 
                                 A dairy farm for four generations had to make a decision</h1>
                                 
                                 <p className='text-center'
-                                    style={{ fontSize: "20px", color: "black", fontFamily: "cursive" }}>
+                                    style={{ fontSize: "20px", color: "black", fontFamily: "Segoe Print" }}>
                                     Just like so many small dairy farmers in the 1990s, we found it increasingly difficult to make a living from just dairy production and began to explore new ways to supplement our income through diversification and expansion. Our farm had successfully been producing quality organic milk for many years, so the idea of applying it in the manufacture of something new seemed an obvious choice.
                                 </p>
                                
@@ -37,7 +37,7 @@ function Usabout() {
                         </Row>
                     </Container>
 
-                    <p className='text-center' style={{fontSize:"70px",color:"black",fontFamily:"initial"}}>OUR STORY</p>
+                    <p className='text-center' style={{fontSize:"70px",color:"black",fontFamily:"papyrus"}}>OUR STORY</p>
                    
 <Container style={{ backgroundImage:"https://woodlands-ice-cream.co.uk/wp-content/themes/woodlands/img/wooden_panels.jpg", border: "10px transparent solid" }}>
                         <Row>
@@ -48,12 +48,12 @@ function Usabout() {
                             </Col>
                             <Col sm={6}>
                          
-                                <p className='text-center' style={{ fontSize:"70px",color: "black", fontFamily: "cursive", marginTop: "20px" ,fontStyle:"uppercase"}}>
+                                <p className='text-center' style={{ fontSize:"60px",color: "black", fontFamily: "MV Boli", marginTop: "20px" ,fontStyle:"uppercase"}}>
 
                                 We made a big decision…</p>
 
 <p className='text-center'
-    style={{ fontSize: "20px", color: "black", fontFamily: "cursive" }}>
+    style={{ fontSize: "20px", color: "black", fontFamily: "Segoe Print" }}>
 Together with my wife Julie, I now run Woodland’s of Erbistock Ice Cream, but in those early days, the decision to create great ice cream from our rich and creamy milk fell to my father and elder brother, Michael, who had returned home to the farm a few years earlier</p>
                             </Col>
                         </Row>
@@ -64,12 +64,12 @@ Together with my wife Julie, I now run Woodland’s of Erbistock Ice Cream, but 
                     <Container style={{ backgroundImage:"https://woodlands-ice-cream.co.uk/wp-content/themes/woodlands/img/wooden_panels.jpg", border: "10px transparent solid" }}>
                         <Row>
                             <Col  sm={6}>
-                                <p className='text-center' style={{fontSize:"60px", color: "black", fontFamily: "fantasy", marginTop: "20px" ,fontStyle:"uppercase"}}>
+                                <p className='text-center' style={{fontSize:"60px", color: "black", fontFamily: "MV Boli", marginTop: "20px" ,fontStyle:"uppercase"}}>
 
                                 Our first ice cream was born…</p>
                                 
                                 <p className='text-center'
-                                    style={{ fontSize: "20px", color: "black", fontFamily: "cursive" }}>
+                                    style={{ fontSize: "20px", color: "black", fontFamily: "Segoe Print" }}>
                                     Just like so many small dairy farmers in the 1990s, we found it increasingly difficult to make a living from just dairy production and began to explore new ways to supplement our income through diversification and expansion. Our farm had successfully been producing quality organic milk for many years, so the idea of applying it in the manufacture of something new seemed an obvious choice.
                                 </p>
                                

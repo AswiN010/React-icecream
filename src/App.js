@@ -9,7 +9,7 @@ import Usabout from './component/Usabout';
 import Store from './component/Store';
 import Login from './component/Login';
 import Register from './component/Register';
-import Appp from './component/Appp';
+import Control from './component/Control';
 function App() {
   return (
     <div className="App">
@@ -27,7 +27,7 @@ function App() {
         <Route path='/store' element={<Store />}/>  
       <Route path='/login' element={<Login/>}/>
       <Route path='/register' element={<Register/>}/>
-      <Route path='/app' element={<Appp/>}/>
+      <Route path='/app' element={<Control/>}/>
 
         </Routes> 
         <Footer/>

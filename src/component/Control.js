@@ -3,7 +3,7 @@ import Amazon from "./amazon";
 import Navbar from "./navbar";
 import Cart from "./cart";
 
-const Appp = () => {
+const Control = () => {
   const [show, setShow] = useState(true);
   const [cart, setCart] = useState([]);
 
@@ -31,4 +31,4 @@ const Appp = () => {
     </>
   );
 };
-export default Appp
+export default Control

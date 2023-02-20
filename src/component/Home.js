@@ -30,12 +30,12 @@ function Home() {
         <img style={{width:"100%",marginTop:'130px'}} src='https://woodlands-ice-cream.co.uk/wp-content/uploads/2018/10/chocolate_tub@2x.png'></img>
         </Col>
         <Col xs={6}>
-        <p className='text-center' style={{fontSize:"40px", color: "black", fontFamily: "fantasy", marginTop: "60px"}}>
+        <p className='text-center' style={{fontSize:"40px", color: "black", fontFamily: "MS Mincho", marginTop: "60px"}}>
 
         Delicious ice cream, made from our very own organic milk</p>
 
 <p className='text-center'
-    style={{ fontSize: "20px", color: "black", fontFamily:"revert-layer" }}>
+    style={{ fontSize: "20px", color: "black", fontFamily:"Segoe Print" }}>
 Twenty five years ago, we set out to create top-notch ice cream, using the organic milk made on our farm in Erbistock, a little village hidden away amongst the gentle hills of North East Wales. We soon converted a little barn and from it, eagerly worked towards our goal; to make a family of ice creams that would be second to none in their taste and creamy texture.</p>
      <div className='text-center'>
      <a href='/login'  style={{color:"green",fontSize:"30px",border:"6px green solid",fontFamily:"cursive",textDecoration:"none",borderRadius:"10px"}}>SIGN UP</a>
@@ -51,12 +51,12 @@ Twenty five years ago, we set out to create top-notch ice cream, using the organ
 <Container style={{ backgroundImage:"https://woodlands-ice-cream.co.uk/wp-content/themes/woodlands/img/wooden_panels.jpg", border: "10px transparent solid" }}>
                         <Row>
                             <Col  sm={8}>
-                                <p className='text-center' style={{fontSize:"50px", color: "black", fontFamily: "fantasy", marginTop: "20px" ,fontStyle:"uppercase"}}>
+                                <p className='text-center' style={{fontSize:"50px", color: "black", fontFamily: "MS Mincho", marginTop: "20px" ,fontStyle:"uppercase"}}>
 
                                 Share our flavoursome range of gorgeous ice cream</p>
                                 
                                 <p className='text-center'
-                                    style={{ fontSize: "20px", color: "black", fontFamily: "cursive" }}>
+                                    style={{ fontSize: "20px", color: "black", fontFamily: "Segoe Print" }}>
 We don’t use frozen food distributors! If you want to know where your Ice cream
 comes from and how it’s made please contact us. Our flavour list changes with the seasons,
 and we always have samples available. Quality, Provenance, Service.                                </p>

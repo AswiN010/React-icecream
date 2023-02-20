@@ -3,8 +3,7 @@ import { useState } from "react";
 import { Form, Alert } from "react-bootstrap";
 import Home from "./Home"
 import './usabout.css'
-import Button from 'react-bootstrap';
-import { Nav } from 'react-bootstrap';
+
 function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -45,20 +44,19 @@ function Register() {
   return (
     <div>
 
-      <>
+      <div className='f' >
         <img style={{ width: "100%" }} src='./don1.jpg' />
         <img style={{ width: "100%" }} src='./nuevas-olas.png' />
 
-        <div style={{ height: 600, padding: 60 }}>
+        <div className='Container' style={{ height: 600, padding: 60,width:"80%",marginLeft:"10%",border:"30px white solid", backgroundColor:"black",borderRadius:"50px" }}>
           {" "}
           {login ? (
             <form className='lion' onSubmit={handleFormSubmit} style={{ border: '1px  black solid', padding: '10px', boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px;', borderRadius: "20px" }}  >
               <h1 style={{ textAlign: "center", fontFamily: "cursive" }}>Registeration Form</h1>
               <br></br>
               <div className="form-group">
-                <label>Name</label>
                 <input
-                  style={{ background: "transparent" }}
+                  style={{ background: "transparent",marginBottom:"10px" }}
                   type="text"
                   className="form-control"
                   placeholder="Enter Full Name"
@@ -68,9 +66,8 @@ function Register() {
               </div>
 
               <div className="form-group">
-                <label>Email</label>
                 <input
-                  style={{ background: "transparent" }}
+                  style={{ background: "transparent",marginBottom:"10px" }}
                   type="email"
                   className="form-control"
                   placeholder="Enter email"
@@ -79,9 +76,8 @@ function Register() {
               </div>
 
               <div className="form-group">
-                <label>Password</label>
                 <input
-                  style={{ background: "transparent" }}
+                  style={{ background: "transparent",marginBottom:"10px" }}
                   type="password"
                   className="form-control"
                   placeholder="Enter password"
@@ -90,9 +86,8 @@ function Register() {
               </div>
 
               <div className="form-group">
-                <label>Phone No.</label>
                 <input
-                  style={{ background: "transparent" }}
+                  style={{ background: "transparent"}}
                   type="Phone"
                   className="form-control"
                   placeholder="Enter contact no"
@@ -102,7 +97,7 @@ function Register() {
 
 
               <br></br>
-              <button style={{ borderRadius: "200px", width: "1px", backgroundColor: "transparent", marginLeft: "10px", textDecorationStyle: "none" }} >
+              <button style={{ borderRadius: "200px", width: "1px", backgroundColor: "transparent", marginLeft: "10px", textDecorationStyle: "none" ,border:'2px black solid'}} >
                 <div class="container1 ">
                   <div class="btn"><a>REGISTER</a></div>
                 </div>
@@ -118,15 +113,24 @@ function Register() {
               )}
             </form>
           ) : (
-            <Alert color="primary" variant="danger">
-              I got it you are in hurry! But every Field is important!
-              <Nav.Link style={{ fontSize: "20px", fontFamily: 'cursive', marginRight: "10px", color: "white" }} href="/">HOME</Nav.Link>
+            <Alert color="primary" variant="success" style={{ backgroundColor: "transparent", border: "none",marginBottom:"70px",width:"50%",backgroundColor:"black" }}>
+         <div>  <img className="text-center" style={{width:"50%"}} src='https://i.postimg.cc/SRzS57hr/Dasher-and-Crank-logo-white.png'/>
+      
 
-            </Alert>
+            <p > The world of Ice CreaM</p> <br></br>
+            </div>
+
+            <button style={{borderRadius:"200px",width:"1px", backgroundColor: "transparent",marginLeft:"10px",textDecorationStyle:"none" }} >
+                                            <div class="container1 ">
+                                                <div class="btn"><a href="/">HOME</a></div>
+                                            </div>
+                                        </button>
+
+          </Alert>
           )}
         </div>
 
-      </>
+      </div>
 
     </div>
   )

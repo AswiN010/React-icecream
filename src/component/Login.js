@@ -47,11 +47,11 @@ function Login() {
 
 
 
-    <>
+    <div className="f">
     <img style={{width:"100%"}} src='./don1.jpg'/>
     <img style={{width:"100%"}} src='./nuevas-olas.png'/>
 
-      <div className="co" style={{ height: 600, padding: 100, overflow: 'hidden',marginTop:'-80px' }}>
+      <div style={{ height: 600, padding: 60,width:"80%",marginLeft:"10%",border:"30px white solid", backgroundColor:"black",borderRadius:"50px" }}>
         {store ? (
 
           <Form className="lion" style={{borderRadius:"30px", width: "75%", border: '2px solid black ', padding: '20px', boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px;' }} onSubmit={handleLogin}>
@@ -67,7 +67,7 @@ function Login() {
 
 
 
-            <button style={{borderRadius:"200px",width:"1px", backgroundColor: "transparent",marginLeft:"50px",textDecorationStyle:"none" }} >
+            <button style={{borderRadius:"200px", backgroundColor: "transparent",width:'1px',textDecorationStyle:"none",border:"2px black solid" }} >
                                             <div class="container1 ">
                                                 <div class="btn"><a>LOGIN</a></div>
                                             </div>
@@ -75,7 +75,7 @@ function Login() {
 
             <br></br>
             <br></br>
-            <p> Don't Have An Account? <a href="/registration"> Register</a></p>
+            <p  > Don't Have An Account? <a style={{width:'140px',backgroundColor:"green",borderRadius:"10px",textDecoration:"none",fontSize:"30px"}} href="/register">&nbsp;&nbsp; Register&nbsp;&nbsp; </a></p>
 
 
             {flag && (
@@ -108,7 +108,7 @@ function Login() {
         )}
       </div>
       
-    </>
+    </div>
   );
 }
 
