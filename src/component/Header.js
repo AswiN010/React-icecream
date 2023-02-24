@@ -31,7 +31,7 @@ function Header() {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link style={{fontSize:"20px",fontFamily:"cursive",marginRight:"10px",color:'white'}}  href="/store">EXCLUSIVE</Nav.Link>
+            <Nav.Link style={{fontSize:"20px",fontFamily:"cursive",marginRight:"10px",color:'white'}}  href="/exclusive">EXCLUSIVE</Nav.Link>
             <Nav.Link style={{fontSize:"20px",fontFamily:"cursive",marginRight:"10px",color:'white'}} href="/contact"  >
               CONTACTS
             </Nav.Link>

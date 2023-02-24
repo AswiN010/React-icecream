@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/card.css";
+var x = localStorage.getItem("uname"); 
 
 const Cards = ({ item, handleClick }) => {
   const { title,  price, img } = item;

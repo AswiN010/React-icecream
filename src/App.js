@@ -24,10 +24,10 @@ function App() {
         <Route path='/about' element={<About />}/>
         <Route path='/Contact' element={<Contact/>}/>     
         <Route path='/story' element={<Usabout />}/>  
-        <Route path='/store' element={<Store />}/>  
+        <Route path='/exclusive' element={<Store />}/>  
       <Route path='/login' element={<Login/>}/>
       <Route path='/register' element={<Register/>}/>
-      <Route path='/app' element={<Control/>}/>
+      <Route path='/store' element={<Control/>}/>
 
         </Routes> 
         <Footer/>

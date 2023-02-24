@@ -99,7 +99,7 @@ function Login() {
 
             <button style={{borderRadius:"200px",width:"1px", backgroundColor: "transparent",marginLeft:"10px",textDecorationStyle:"none" }} >
                                             <div class="container1 ">
-                                                <div class="btn"><a href="/app">SHOP</a></div>
+                                                <div class="btn"><a href="/store">SHOP</a></div>
                                             </div>
                                         </button>
 

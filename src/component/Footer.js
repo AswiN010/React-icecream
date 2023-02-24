@@ -28,10 +28,10 @@ function Footer() {
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h4 style={{fontFamily:"cursive"}} >Company</h4>
           <ul class="list-unstyled mb-3">
-            <li class="mb-2"><a href="#" style={{textDecoration:"none"}}  class="text-muted">HOME</a></li>
-            <li class="mb-2"><a href="#" style={{textDecoration:"none"}}  class="text-muted">ABOUT</a></li>
+            <li class="mb-2"><a href="/" style={{textDecoration:"none"}}  class="text-muted">HOME</a></li>
+            <li class="mb-2"><a href="/story" style={{textDecoration:"none"}}  class="text-muted">ABOUT</a></li>
             <li class="mb-2"><a href="#" style={{textDecoration:"none"}}  class="text-muted">STORE</a></li>
-            <li class="mb-2"><a href="#" style={{textDecoration:"none"}}  class="text-muted">Our Blog</a></li>
+            <li class="mb-2"><a href="/exclusive" style={{textDecoration:"none"}}  class="text-muted">Our Blog</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-6 mb-lg-0">

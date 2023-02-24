@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Login from './Login';
 function Home() {
   return (
-    <div className='f' style={{backgroundColor:"",height:"100%"}}>
+    <div className='f' style={{backgroundColor:"",height:"100%" ,width:'100%'}}>
       <>
       <img style={{width:"100%"}} src='./don1.jpg'/>
       <img style={{width:"100%"}} src='./nuevas-olas.png'/>

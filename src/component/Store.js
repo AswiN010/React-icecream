@@ -69,7 +69,7 @@ the Exclusive edition of cakes are being introduced as a celebration of our 25 y
 
 
                                         <Button style={{borderRadius:"200px",width:"1px", backgroundColor: "transparent",marginLeft:"-280px",border:"2px white solid",textDecorationStyle:"none" }}  onClick={handleShow}>
-                                        <span><a ></a></span>
+                                        <span className='span1'><a ></a></span>
                                         </Button>
 
                                         <Modal style={{ color: "black" }} show={show} onHide={handleClose}>

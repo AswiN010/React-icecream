@@ -1,4 +1,4 @@
-span{
+.span1{
     position: relative;
     display: inline-flex;
     width: 180px;
@@ -6,7 +6,7 @@ span{
     margin: 0 15px;
     perspective: 1000px;
   }
-  span a{
+  .span1 a{
     font-size: 19px;
     letter-spacing: 1px;
     transform-style: preserve-3d;
@@ -15,8 +15,8 @@ span{
     font-family: 'Montserrat', sans-serif;
     
   }
-  span a:before,
-  span a:after{
+  .span1 a:before,
+  .span1 a:after{
     position: absolute;
     content: "PLACE ORDER";
     height: 55px;
@@ -28,16 +28,16 @@ span{
     box-sizing: border-box;
     border-radius: 5px;
   }
-  span a:before{
+  .span1 a:before{
     color: #fff;
     background: #000;
     transform: rotateY(0deg) translateZ(25px);
   }
-  span a:after{
+  .span1 a:after{
     color: #000;
     transform: rotateX(90deg) translateZ(25px);
   }
-  span a:hover{
+  .span1 a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
   }
   .won{
